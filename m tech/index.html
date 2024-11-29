@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Css Personalizado-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>m Tech</title>
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="200px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cursos">Tutoriais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#institucional">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias-eventos">Ferramentas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias-eventos">Experiencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-primary ms-md-3" href="#contato">Duvidas</a>
+                </div>
+            </div>
+        </nav>
+
+        <!--Slider Corousel-->
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="img/slider_image_1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tutoriais Detalhados</h5>
+                        <p>Passo a passo com explicações claras e imagens para cada fase do conserto de celulares.</p>
+                        <a href="#" class="btn btn-primary azul">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/slider_image_2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Experiências de Mercado</h5>
+                        <p>Conselhos e insights de técnicos profissionais com anos de experiência no setor.</p>
+                        <a href="#" class="btn btn-primary azul">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/slider_image_3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Atualizações Constantes</h5>
+                        <p>Informações sobre as mais recentes ferramentas e técnicas de manutenção.</p>
+                        <a href="#" class="btn btn-primary azul">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!--Cursos-->
+    <section id="cursos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Conheça nossos Tutoriais</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card">
+                        <img src="img/learn_1.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Troca de Tela de Smartphone</h5>
+                            <p class="card-text">Aprenda como substituir a tela de diferentes modelos de celulares de forma segura e eficaz.</p>
+                            <a href="#" class="btn btn-primary verde">ver tuturial...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card">
+                        <img src="img/learn_2.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Troca de Bateria</h5>
+                            <p class="card-text">Guia completo para a troca de baterias de smartphones, com todas as etapas detalhadas.</p>
+                            <a href="#" class="btn btn-primary verde">ver tuturial...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card">
+                        <img src="img/learn_3.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Problemas de Software</h5>
+                            <p class="card-text">Saiba como identificar e resolver os problemas de software mais comuns em smartphones.</p>
+                            <a href="#" class="btn btn-primary verde">ver tuturial...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card">
+                        <img src="img/learn_4.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Troca de conector de carga</h5>
+                            <p class="card-text">Aprenda como substituir o conector de carga de diferentes modelos de celulares de forma segura e eficaz.</p>
+                            <a href="#" class="btn btn-primary verde">ver tuturial...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="institucional">
+        <div class="container border-bottom pb-5">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Bem vindo a M Tech</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="#"><img src="img/video_image.jpg" width="100%"></a>
+                </div>
+                <div class="col-md-5">
+                    <p>
+                        M Tech é um blog criado para oferecer suporte e conhecimento prático
+                         a técnicos recém-formados que estão ingressando no mercado de manutenção de celulares.
+                          Nosso objetivo é fornecer dicas valiosas, orientações detalhadase informações atualizadas
+                           para ajudar você a desenvolver as habilidades necessárias para se destacar na área.
+                    </p>
+                    <p>
+                    
+                    </p>
+                    <p>
+                        Sabemos que o início de uma carreira pode ser desafiador,
+                         especialmente quando a experiência prática é limitada. 
+                         No M Tech, reunimos experiências de técnicos experientes, 
+                         tutoriais passo a passo e ferramentas essenciais para que você 
+                         possa enfrentar qualquer problema de manutenção com confiança.
+                    </p>
+                    <p>
+                        
+                    </p>
+                    <a href="#contato" class="btn btn-primary azul">Conheça melhor a M Tech ...</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Noticias e Eventos-->
+    <section id="noticias-eventos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" id="noticias">
+                    <h4>Ferramentas e Técnicas</h4>
+                    <hr>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/noticias01.jpg" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Estação de Solda
+                                        </h5>
+                                    </a>
+                                    <p class="card-text">Essencial para reparos avançados, como troca de componentes em placas-mãe.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Publicado às 14:54 do dia
+                                            08/06/24.</small></p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/noticias02.jpg" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Pinças de Precisão
+                                        </h5>
+                                    </a>
+                                    <p class="card-text">Ferramenta indispensável para lidar com componentes pequenos e delicados.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Publicado às 13:00 do dia
+                                            10/06/24.</small></p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/noticias03.jpg" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Multímetro Digital
+                                        </h5>
+                                    </a>
+                                    <p class="card-text">Ideal para verificar circuitos e diagnosticar problemas elétricos com precisão.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Publicado às 17:54 do dia
+                                            23/06/24.</small></p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-md-4" id="eventos">
+                    <h4>Experiências Compartilhadas</h4>
+                    <h6>Descubra as histórias e aprendizados de técnicos experientes, oferecendo insights sobre o que funciona no mercado e o que evitar.</h6>
+                    <hr>
+                    <div class="row g-0">
+                        <div class="col-3 px-2">
+                            <div class="data text-center">
+                                <div class="dia">12</div>
+                                <div class="mes">Junho</div>
+                            </div>
+                        </div>
+                        <div class="col-9 px-2">
+                            <a href="#"><h5>Lucas Ferreira <br>
+                                "Trocar a tela de um iPhone 11 parecia uma tarefa simples, mas aprendi a importância de cada detalhe para evitar danos irreversíveis ao aparelho."</h5></a>
+                            <p><small class="text-muted">
+                                <i class="bi-geo-alt-fill"></i>Canoinhas<br>
+                                <i class="bi bi-clock"></i>11:00h
+                            </small>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row g-0">
+                        <div class="col-3 px-2">
+                            <div class="data text-center">
+                                <div class="dia">23</div>
+                                <div class="mes">janeiro</div>
+                            </div>
+                        </div>
+                        <div class="col-9 px-2">
+                            <a href="#"><h5>Ana Paula Costa <br>
+                                "Encontrei muitos problemas de software que pareciam insolúveis, até que percebi a importância de ferramentas de diagnóstico eficazes."</h5></a>
+                            <p><small class="text-muted">
+                                <i class="bi-geo-alt-fill"></i> mafra<br>
+                                <i class="bi bi-clock"></i>12:00h
+                            </small>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row g-0">
+                        <div class="col-3 px-2">
+                            <div class="data text-center">
+                                <div class="dia">15</div>
+                                <div class="mes">setembro</div>
+                            </div>
+                        </div>
+                        <div class="col-9 px-2">
+                            <a href="#"><h5>Rafael Silva <br>
+                                "Nunca subestime a importância de uma boa organização das ferramentas. Isso me salvou de perder muito tempo durante as reparações."</h5></a>
+                            <p><small class="text-muted">
+                                <i class="bi-geo-alt-fill"></i> Rio de janeiro<br>
+                                <i class="bi bi-clock"></i>08:00h
+                            </small>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Nossos números-->
+    <section id="numeros" class="paralax">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h4>Conheça os nossos números</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-3 pb-3 border-bottom border-md-0">
+                    <div class="numero text-center">
+                        <div class="icone">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <div class="contador">
+                            <span class="timer">12.520</span>
+                        </div>
+                        <div class="separador"></div>
+                        <p>Tecnicos ajudados</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-3 pb-3 border-bottom border-md-0">
+                    <div class="numero text-center">
+                        <div class="icone">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <div class="contador">
+                            <span class="timer">1000</span>
+                        </div>
+                        <div class="separador"></div>
+                        <p>tutorias</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-3 pb-3 border-bottom border-md-0">
+                    <div class="numero text-center">
+                        <div class="icone">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <div class="contador">
+                            <span class="timer">1500</span>
+                        </div>
+                        <div class="separador"></div>
+                        <p>Tecnicos</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-3 pb-3 border-bottom border-md-0">
+                    <div class="numero text-center">
+                        <div class="icone">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <div class="contador">
+                            <span class="timer">5000</span>
+                        </div>
+                        <div class="separador"></div>
+                        <p>Cidades</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contato-->
+    <section id="contato">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-6 borda-azul p-4">
+                    <h4>Entre em contato conosco</h4>
+                    <p>
+                        Entre em contato conosco para dúvidas, sugestões ou suporte técnico. Estamos aqui para ajudar!
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                          </div>
+                          <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                          </div>
+                          <div class="mb-3">
+                            <label for="email" class="form-label">whatsapp</label>
+                            <input type="whatsapp" class="form-control" id="whatsapp" placeholder="Digite seu whatsapp">
+                          </div>
+                          <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                          </div>
+                          <div class="mb-3">
+                            <input type="submit" value="Enviar" class="btn btn-primary azul">
+                          </div>
+                    </form>
+                </div>
+                <div class="col-md-6 p-4">
+                    <img src="img/contato.jpg" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Rodapé-->
+    <footer class="mt-4 border-top pt-3 pb-3" id="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        <a href="#home">Home</a>
+                        <a href="#cursos">Tutoriais</a>
+                        <a href="#institucional">Sobre</a>
+                        <a href="#noticias-eventos">Ferramentas</a>
+                        <a href="#noticias-eventos">Experiencias</a>
+                        <a href="#contato">Contato</a>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <a href="https://www.facebook.com/" class="btn btn-outline-light ms-2">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="btn btn-outline-light ms-2">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="btn btn-outline-light ms-2">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
